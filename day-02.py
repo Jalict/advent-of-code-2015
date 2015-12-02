@@ -1,6 +1,7 @@
-import urllib2
+import StringIO
+str = open('day-02', 'r');
 
-str = urllib2.urlopen("http://adventofcode.com/day/2/input")
-page_source = response.read()
+buffer = StringIO.StringIO(str.read())
 
-print str
+for line in buffer:
+    print line
