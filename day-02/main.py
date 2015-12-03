@@ -1,5 +1,5 @@
 import StringIO
-str = open('day-02', 'r');
+str = open('input.txt', 'r');
 
 buffer = StringIO.StringIO(str.read())
 
