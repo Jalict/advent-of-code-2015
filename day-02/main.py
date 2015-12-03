@@ -23,5 +23,5 @@ for line in buffer:
 
     # Calculate: 2*l*w + 2*w*h + 2*h*l
     squareFeetPaper = squareFeetPaper + (2 * length * width) + (2 * width * height) + (2 * height * length) + (edges[0] * edges[1])
-    print line, ' = ', ((2 * length * width) + (2 * width * height) + (2 * height * length) + (edges[0] * edges[1]))
+    # print line, ' = ', ((2 * length * width) + (2 * width * height) + (2 * height * length) + (edges[0] * edges[1]))
 print squareFeetPaper
