@@ -1,9 +1,9 @@
 import StringIO
-input = open('input.txt', 'r');
+inp = open('input.txt', 'r');
 
 matrix = {}
 
-str = input.readline()
+str = inp.readline()
 
 xS = 0
 yS = 0
