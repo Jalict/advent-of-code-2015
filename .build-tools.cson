@@ -1,0 +1,35 @@
+providers: [
+  {
+    key: "bt"
+    config:
+      commands: [
+        {
+          project: "/home/jalict/Projects/advent-of-code"
+          source: "/home/jalict/Projects/advent-of-code/.build-tools.cson"
+          name: "Let It Snow, Let It Snow, Let It Snow!"
+          command: "python %f"
+          wd: "."
+          env: {}
+          modifier:
+            wildcards: {}
+            shell:
+              command: "bash -c"
+          stdout:
+            pty: false
+            highlighting: "nh"
+            ansi_option: "ignore"
+          stderr:
+            highlighting: "nh"
+            ansi_option: "ignore"
+          output:
+            console:
+              close_success: true
+              queue_in_buffer: true
+              stdin: false
+            linter:
+              no_trace: false
+          version: 1
+        }
+      ]
+  }
+]
